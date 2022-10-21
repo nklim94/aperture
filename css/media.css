@@ -1,0 +1,121 @@
+@media (min-width: 240px) and (max-width: 1198px) {	
+	.hamburger {
+  		display: block;  		
+	}
+	.hamburger__list {
+		display: block;
+	}	
+	.line1 {
+		width: 40px;
+		height: 6px;
+		background: white;
+		border-radius: 5px;
+		margin-bottom: 7px;
+		transition: all 1s;
+	}
+	.line2 {		
+		width: 36px;
+		height: 6px;
+		background: white;
+		border-radius: 5px;
+		margin-bottom: 7px;
+		margin-left: auto;
+		margin-right: auto;
+		transition: all .5s;	
+	}
+	.line3 {
+		width: 40px;
+		height: 6px;
+		background: white;
+		border-radius: 5px;
+		transition: all 1s;
+	}
+	.line1_active {
+		transform-origin:left top;
+		transform: rotate(45deg);		
+	} 
+	.line2_active {
+		transform: translateX(-100px);
+	}
+	.line3_active {
+		transform-origin:left bottom;
+		transform: rotate(-45deg);
+	}
+	.menu__list {
+		display: none;		
+	}
+	.menu .wrapper {
+		justify-content: center;
+	}
+	.what__card {
+		flex-basis: 100%;
+	}
+	.the-gear__right {
+		display: none;
+	}
+	.the-gear__left {
+		flex-basis: 100%;
+		text-align: center;
+		margin: 0 auto;
+		background:url("../img/main/gear-right.png") ;
+		background-size: cover;
+	}
+	.footer .wrapper {
+		flex-wrap: wrap;
+	}
+	.footer__aperture {
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-bottom: 30px;		
+	}
+	.footer__menu {
+		margin: 0 auto;
+	}
+	.footer__list {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.footer__subscribe-text {
+		flex-basis: 100%;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.footer__input {
+		flex-basis: 60%;
+		margin: 0 auto;
+	}
+	.policy {
+		flex-wrap: wrap;
+	}
+	.policy__text {
+		flex-basis: 100%;
+		text-align: center;
+		order: 2;
+	}
+	.policy__social {
+		flex-basis: 100%;
+		text-align: center;
+		margin-bottom: 20px
+	}
+	.header{
+		margin-bottom: 0;
+	}
+	.header__content {
+		padding-top:150px; 
+		padding-bottom: px;
+		background-size: auto;
+	}
+	.what__text {
+		margin-bottom: 100px;
+	}
+	.header__frames { 
+		margin-top: 40px
+	}
+}	
+@media (min-width: 800px) and (max-width: 1198px) {
+	.what__card {
+		flex-basis: 48%;
+	}
+}
