@@ -111,7 +111,7 @@
 		margin-bottom: 100px;
 	}
 	.header__frames { 
-		margin-top: 40px
+		margin: 30px auto 0px auto;
 	}
 }	
 @media (min-width: 800px) and (max-width: 1198px) {
